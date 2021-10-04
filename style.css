@@ -1,0 +1,68 @@
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#003b6f, black, black, black, #003b6f);
+    display: grid;
+}
+
+#main {
+    padding: 0 50px 100px 50px;
+    border-radius: 15px;
+    height: 100%;
+    background-image: url(images/crack.jpg);
+    color: white;
+    
+    
+    
+}
+
+#title {
+    font-size: 100px;
+    text-align: center;
+    color: #003b6f;
+    width: 100%;
+}
+
+#image {
+    min-width: 15%;
+    max-width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border-radius: 15px;
+}
+
+#img-caption {
+    text-align: center;
+    background: none;
+    color: lightblue;
+    margin: 5px 20px 40px 20px;
+}
+
+#tribute-info {
+    background-color: #003b6f;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 80px 200px 0 200px;
+    line-height: 1.5;
+    
+    text-align: center;
+}
+
+#tribute-link {
+    padding: 1px 3px;
+   margin: 0;
+    border-radius: 10px;
+    color: lightblue;
+    text-decoration: none;
+}
+#tribute-link:hover {
+    background-color: lightblue;
+    color: #003865;
+    border-color: #003865;
+}
